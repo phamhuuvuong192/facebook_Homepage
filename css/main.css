@@ -1,0 +1,155 @@
+*{
+	margin:0;
+	padding:0;
+}
+html, body{
+	font-family: sans-serif;
+}
+
+header{
+	background: #3B5998;
+	height:80px;
+}
+.container{
+	width: 1024px;
+	margin:0 auto;
+}
+
+header .logo{
+	color:#ffffff;
+	padding-top:20px;
+	width:50%;
+	float:left;
+}
+header .login{
+	color:#ffffff;
+	width: 50%;
+	float:left;
+	font-size:12px;
+}
+header .login .left{
+	
+	width:35%;
+	float:left;
+	padding:5px;
+	padding-top:10px;
+}
+header .login .center{
+	
+	width:35%;
+	float:left;
+	padding:5px;
+	padding-top:10px;
+
+}
+header .login .right{
+	
+	width:20%;
+	float:left;
+	padding:5px;
+	padding-top:21px;
+}
+header .login input{
+	width:90%;
+}
+header .login .center a{
+	color:#76add8;
+	text-decoration: none;
+}
+header .login .right button{
+	background: #6078ad;
+	padding:5px;
+	color:#ffffff;
+	border-radius: 3px;
+	border-width: 1px;
+	border-color: #000;
+}
+header .login .right button:hover{
+	background: #4267b2;
+}
+
+main{
+	clear:both;
+	color:#333333;
+	padding-top:20px;
+	background: #e9ebee;
+	height: 420px;
+}
+
+main .container .left{
+	width: 50%;
+	float:left;
+}
+main .container .right{
+	width: 50%;
+	float:left;
+}
+form{
+	width:100%;
+}
+main #firstname{
+	padding:5px;
+	border-radius: 4px;
+	border: 1px solid #e9ebdc;
+}
+main #surname{
+	padding:5px;
+	border-radius: 4px;
+	border: 1px solid #e9ebdc;
+}
+main #mobile_number, #password{
+	margin-top:5px;
+	margin-right:30px;
+	padding:5px;
+	border-radius: 4px;
+	border: 1px solid #e9ebdc;
+	width: 355px;
+}
+.birthday{
+	padding-top:20px;
+
+}
+.day_birth a{
+	font-size: 10px;
+	text-decoration: none;
+}
+.day_birth select{
+	padding:4px;
+}
+.female_male{
+	margin-top:10px;
+}
+.female_male label{
+	padding:5px;
+}
+.clicking{
+	font-size: 11px;
+}
+.clicking a{
+	text-decoration: none;
+}
+main .right form button{
+	margin: 20px 0;
+	padding: 7px 20px;
+	background-color: #69a74e;
+	color:#fff;
+	font-weight: bold;
+	min-width: 194px;
+	border-radius: 5px;
+	border: 1px solid;
+	text-shadow: 0 1px 2px rgba(0,0,0,.5);
+	background: linear-gradient(#67ae55, #558843);
+}
+main .right form button:hover{
+	background: black;
+
+}
+main .right form span{
+	font-size: 12px;
+}
+footer .top ul li{
+	list-style: none;
+	float: left;
+	padding: 5px;
+	font-size: 11px;
+}
